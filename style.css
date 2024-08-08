@@ -1,0 +1,137 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #fbf9b6!important;
+}
+
+/* text for navbar and the actual page are different */
+
+body nav{
+  font-family: 'Bebas Neue', sans- 
+  serif!important;
+}
+
+body p, h4 {
+  font-family: 'PT Serif', serif;
+
+}
+
+.accordion-body {
+  font-family: 'PT Serif', serif;
+}
+
+.maps {
+  position: relative;
+  padding-bottom: 45%;
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#myVideo {
+  width:100%;
+}
+
+.productsspacing {
+  padding-top: 60px;
+}
+
+
+
+#footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+/* to make all the image in the carousel look nice */
+.carousel-inner {
+  height: 0;
+  padding-bottom: 60%; 
+}
+
+.carousel-item {
+  position: absolute !important; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.carousel-item img {
+  height: 100%; 
+  object-fit: contain;
+}
+
+.banner {
+  position: relative;
+  height: 500px;
+}
+
+/* makes sure that the video banner is responsive */
+
+.banner-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.banner-video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  font-family: 'Bebas Neue', sans- 
+  serif!important;
+}
+
+.banner-text h5 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* didn't like how close some items are so i used these classes to fix that */
+.spacing {
+  padding-top: 60px;
+  
+}
+
+.spacing2 {
+  padding-top: 40px;
+
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+card {
+  padding-left: 30px;
+}
